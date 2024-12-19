@@ -1,2 +1,5 @@
+build:
+	@go build -o bin/cli-uptimer src/main.go
+
 run:
-	@go run main.go
+	@go run src/main.go
